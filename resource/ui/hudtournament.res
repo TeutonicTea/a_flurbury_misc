@@ -27,7 +27,7 @@
 			"xpos"						"c-250"
 			"ypos"						"0"
 			"wide"						"500"
-			"tall"						"480"
+			"tall"						"f0"
 			"team1_player_base_y"		"66"
 			"team2_player_base_y"		"66"
 			"team2_player_delta_x"		"52"
@@ -159,7 +159,8 @@
 					"ypos"		"4"
 					"wide"		"20"
 					"tall"		"20"
-					"image"		"../vgui/hud_connecting"
+					// "image"		"../vgui/hud_connecting"
+					"image"		"hud_connecting"
 				}
 				"if_competitive"
 				{
@@ -167,7 +168,8 @@
 					"ypos"						"4"
 					"wide"						"p0.4"
 					"tall"						"p0.6"
-					"image"						"../vgui/hud_connecting"
+					// "image"						"../vgui/hud_connecting"
+					"image"		"hud_connecting"
 					"proportionaltoparent"		"1"
 				}
 				"if_readymode"
@@ -176,7 +178,8 @@
 					"ypos"		"4"
 					"wide"		"20"
 					"tall"		"20"
-					"image"		"../vgui/hud_connecting"
+					// "image"		"../vgui/hud_connecting"
+					"image"		"hud_connecting"
 				}
 			}
 			"classimagebg"
@@ -829,7 +832,8 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"labelText"			"Y"
-		"textAlignment"		"left"
+		// "textAlignment"		"left"
+		"textAlignment"		"west"
 		"if_mvm"
 		{
 			"xpos"		"166"

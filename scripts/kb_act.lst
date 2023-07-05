@@ -7,7 +7,7 @@
 "impulse 100"		"#Valve_Flashlight"
 "+use"				"#Valve_Use_Items"
 "hud_reloadscheme"	"Reload HUD layout and animation scripts"
-"+vgui_drawtree"	"Draw VGUI tree"
+"+vgui_drawtree"	"Draw VGUI hierarchy tree"
 // Default TF2 bindings
 "blank"			"=========================="
 "blank"			"#Valve_Movement_Title"

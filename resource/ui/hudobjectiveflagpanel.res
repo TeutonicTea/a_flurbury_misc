@@ -298,8 +298,8 @@
 		}
 		"if_mvm"
 		{
-			// "visible"	"0"
-			"xpos"		"c40"	// Fits right of MvM bomb carrier progress panel.
+			"visible"		"0"
+			// "xpos"		"c45"	// Fits right of MvM bomb carrier progress panel.
 		}
 		"if_specialdelivery"
 		{
@@ -330,8 +330,8 @@
 		}
 		"if_mvm"
 		{
-			// "visible"	"0"
-			"xpos"		"c45"	// Fits right of MvM bomb carrier progress panel.
+			"visible"		"0"
+			// "xpos"		"c40"	// Fits right of MvM bomb carrier progress panel.
 		}
 		"if_specialdelivery"
 		{
