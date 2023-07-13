@@ -7,7 +7,7 @@
 	"Test Element"
 	{
 		"ControlName"		"EditablePanel"
-		"border"			"TFThinLineBorder"
+		"border"			"TeamMenuBorder"
 		"wide"				"128"
 		"tall"				"64"
 		"xpos"				"cs-0.5"
@@ -180,7 +180,7 @@
 		"xpos"				"175"
 		"ypos"				"12+16"
 		"zpos"				"4"
-		"if_mvm"
+		"if_mvm"	// Shows number of times failed + gate captures.
 		{
 			"textAlignment"		"west"
 			"xpos"				"16"
@@ -210,7 +210,6 @@
 	{
 		"ControlName"		"CExLabel"
 		"labelText"			"%blueteamplayercount%"
-		"textAlignment"		"west"
 		"font"				"ScoreboardTeamCountNew"
 		"wide"				"160"
 		"tall"				"15"
@@ -219,6 +218,7 @@
 		"visible"			"1"
 		"if_mvm"
 		{
+			// "xpos"		"10"	// For the thickest of wave contents.
 			"ypos"		"42+16-4"
 		}
 	}
@@ -252,7 +252,9 @@
 		"zpos"				"4"
 		"if_mvm"
 		{
-			"visible"		"0"
+			"textAlignment"		"east"
+			"xpos"				"524"
+			"ypos"				"12+16-4"
 		}
 	}
 	"RedTeamScoreDropshadow"
@@ -284,6 +286,7 @@
 		"ypos"				"42+16"
 		"if_mvm"
 		{
+			// "xpos"		"470"	// For the thickest of wave contents.
 			"ypos"		"42+16-4"
 		}
 	}
@@ -291,18 +294,16 @@
 	{
 		"ControlName"		"CExLabel"
 		"labelText"			"%server%"
-		"textAlignment"		"west"
 		"font"				"ScoreboardVerySmall"
 		"wide"				"300"
 		"tall"				"20"
-		"xpos"				"11"
-		"ypos"				"60+16"
+		"xpos"				"10"
+		"ypos"				"16"
 		"xpos_hidef"		"31"
 		"ypos_lodef"		"62"
 		"visible"			"0"
 		"if_mvm"
 		{
-			"ypos"			"0+16"
 			"visible"		"1"
 		}
 	}
@@ -376,12 +377,11 @@
 		"font"				"ScoreboardVerySmall"
 		"wide"				"300"
 		"tall"				"20"
-		"xpos"				"305"
-		"ypos"				"60+16"
+		"xpos"				"330"
+		"ypos"				"16"
 		"visible"			"0"
 		"if_mvm"
 		{
-			"ypos"			"0+16"
 			"visible"		"1"
 		}
 	}
@@ -431,7 +431,6 @@
 		"xpos"						"319"
 		"ypos"						"70+16"
 		"zpos"						"2"
-		// "visible"				"0"
 		"if_mvm"
 		{
 			"visible"		"0"
@@ -448,10 +447,10 @@
 		"xpos"				"115"
 		"ypos"				"357+16"
 		"zpos"				"4"
-		"if_mvm"
-		{
-			"ypos"		"428+16"
-		}
+		// "if_mvm"
+		// {
+		// "ypos"		"428+16"
+		// }
 	}
 	"SpectatorsInQueue"
 	{
@@ -686,7 +685,8 @@
 		"zpos"				"3"
 		"if_mvm"
 		{
-			"visible"		"0"
+			"ypos"		"385+16-24"
+			// "visible"		"0"
 		}
 	}
 	"HorizontalLine"
@@ -1062,8 +1062,8 @@
 			"tall"				"20"
 			"autoResize"		"0"
 			"pinCorner"			"0"
-			"visible"			"0"
-			"enabled"			"0"
+			"visible"			"1"
+			"enabled"			"1"
 			"fgcolor"			"185 177 153 255"
 		}
 		"Assists"

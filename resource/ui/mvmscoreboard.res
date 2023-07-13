@@ -7,9 +7,6 @@
 		"tall"				"67"
 		"xpos"				"20"
 		"ypos"				"0"
-		"zpos"				"-100"
-		"visible"			"1"
-		"enabled"			"1"
 		"verbose"			"1"
 	}
 	"PopFileLabel"
@@ -100,7 +97,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CreditStatsContainer"
 		"xpos"				"100+20"
-		"ypos"				"230+16"
+		"ypos"				"230+16-10"
 		"wide"				"400"
 		"tall"				"205"
 		"visible"			"1"
